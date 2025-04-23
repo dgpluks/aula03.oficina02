@@ -1,0 +1,58 @@
+*{
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: aquamarine;
+}
+main{
+    background-color: lightcyan;
+    border: 1px solide lightgrey;
+    border-radius: .5rem;
+    padding: 0.5rem;
+    width: 30rem;
+    height: 30rem;
+    box-shadow: 0 0.5rem 0.5rem 0.03rem lightgrey;
+    margin: 1rem auto;
+}
+#idade{
+    background-color: lightcyan;
+    padding: 0.5rem;
+    border: 1px solid lightgrey;
+    border-radius: 0.5rem;
+    text-align: right;
+    flex: 1;
+}
+#entrada{
+    background-color: lightcyan;
+    padding: 0.5rem;
+    border: 1px solid lightgrey;
+    border-radius: 0.5rem;
+    text-align: right;
+    display: flex;
+}
+button{
+    background-color: rgb(205, 205, 206);
+    border:none;
+    padding: 0.5rem;
+    border: 1px solid lightgrey;
+    border-radius: 0.5rem;
+    text-align: right;
+    flex: 1;
+}
+button:hover{
+    color: azure;
+    background-color: rgb(153, 153, 153);
+}
+#resp{
+    background-color: lightcyan;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    text-align: right;
+    flex: 1;
+}
+.title{
+    background-color: lightcyan;
+    border: 1px solid lightgrey;
+    padding: 8.5;
+    flex:1;
+    margin: 0.3rem;
+}
